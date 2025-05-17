@@ -1,52 +1,59 @@
-# 🔐 Secure Text Encryption & Decryption App
+# Python Assignments Collection
 
-## About This Project
-This project is part of my **Python learning journey**. It is a simple web application built using **Streamlit**, **hashlib**, and **Fernet** (from the `cryptography` library) to demonstrate basic concepts of encryption and decryption.
+## About This Repository
+This repository contains **6 Python assignments** as part of my learning journey.  
+Out of these, **4 assignments are built using Streamlit** to create interactive web apps, while the other 2 are console-based Python projects.
 
-Users can **securely store text** by encrypting it with a passkey and later retrieve the original text by decrypting it with the same passkey. To enhance security, the app limits the number of wrong passkey attempts to 3, after which the user must log in again.
+Each assignment focuses on different Python concepts including encryption, UI development, data handling, and object-oriented programming.
 
 ---
 
 ## 🐍 About Python
-Python is a high-level, interpreted programming language known for its simplicity and readability. It supports multiple programming paradigms and is widely used for web development, data science, automation, and more. Python's rich ecosystem of libraries (like `cryptography` and `streamlit`) makes it a perfect choice for rapid application development and learning.
+Python is a popular, beginner-friendly programming language known for its readability and versatility.  
+It is widely used in web development, automation, data science, artificial intelligence, and more.
 
 ---
 
-## 💡 Features
+## 🚩 Assignment Overview
 
-- **Text Encryption:** Encrypt your data with a custom passkey.
-- **Secure Passkey Hashing:** Passkeys are hashed using SHA256 to protect sensitive information.
-- **Decryption with Security:** Users can decrypt data by providing the correct passkey. After 3 wrong attempts, reauthorization is required.
-- **Simple & Clean UI:** Built using Streamlit for easy interaction.
+### 1. Unit Converter *(Streamlit)*  
+- A simple app to convert units (length, weight, temperature, etc.) with an easy-to-use interface.
 
----
+### 2. Password Strength Checker *(Streamlit)*  
+- An interactive tool that evaluates the strength of a password and gives suggestions for improvement.
 
-## 🚀 How to Use
+### 3. Personal Library Manager *(Streamlit)*  
+- A web app to add, manage, and search through a personal collection of books.
 
-1. Go to **Store Data** to input your text and create a passkey for encryption.
-2. The app will generate an encrypted text string.
-3. To retrieve your original text, go to **Retrieve Data** and enter the encrypted string along with the passkey.
-4. If you enter a wrong passkey 3 times, you'll need to log in again via the **Login** page.
+### 4. Streamlit Encryption & Decryption App *(Streamlit)*  
+- Securely encrypt and decrypt text with a passkey.  
+- Limits wrong passkey attempts with a re-login feature.  
+- Uses `hashlib` for hashing and `cryptography.Fernet` for encryption.
 
----
+### 5. Console-based Encryption & Decryption Tool *(Console)*  
+- Similar to the Streamlit app but runs on the command line.
 
-## 📜 اردو میں خلاصہ
-
-یہ ایک ویب ایپ ہے جو صارف کو اپنا ٹیکسٹ **پاسکی کے ذریعے انکرپٹ** اور **ڈی کرپٹ** کرنے کی سہولت دیتی ہے۔  
-اگر 3 بار غلط پاسکی دی جائے تو دوبارہ لاگ ان کی ضرورت پڑتی ہے تاکہ سیکورٹی کو یقینی بنایا جا سکے۔
-
----
-
-## 📚 Libraries Used
-
-- [Streamlit](https://streamlit.io/) — For building the web app interface  
-- [hashlib](https://docs.python.org/3/library/hashlib.html) — For SHA256 passkey hashing  
-- [cryptography (Fernet)](https://cryptography.io/en/latest/fernet/) — For encryption and decryption
+### 6. Build, Compose, and Decorate: A Complete Traditional OOP Practice Series *(Console)*  
+- A console project practicing object-oriented programming concepts like inheritance, composition, and decorators.
 
 ---
 
-## 🛠️ Installation & Running
+## 💡 Features Highlight (For Streamlit Apps)
 
+- Interactive web interfaces  
+- User-friendly input and output display  
+- Real-time data processing and validation  
+- Secure passkey and encryption management (where applicable)  
+
+---
+
+## 🛠️ How to Run Streamlit Assignments
+
+1. Install Python (if not already installed):  
+[Download Python](https://www.python.org/downloads/)
+
+2. Install required packages:  
 ```bash
 pip install streamlit cryptography
-streamlit run your_script_name.py
+l streamlit cryptography
+
